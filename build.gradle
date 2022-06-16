@@ -43,9 +43,9 @@ test {
 
 sonarqube {
   properties {
-    property "sonar.pullrequest.key", "2"
+    property "sonar.pullrequest.key", "3"
     property "sonar.pullrequest.base", "main"
-    property "sonar.pullrequest.branch", "dito-paypay-patch-1"
+    property "sonar.pullrequest.branch", "dito-second-test"
     property "sonar.pullrequest.provider", "github"
   }
 }
