@@ -1,1 +1,5 @@
 rootProject.name = 'spring-petclinic'
+
+property ‘sonar.pullrequest.key’, ‘2’
+property ‘sonar.pullrequest.base’, ‘main’
+property ‘sonar.pullrequest.branch’, ‘dito-paypay-patch-1’
