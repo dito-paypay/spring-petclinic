@@ -7,7 +7,7 @@ on:
   pull_request:
       types: [opened, synchronize, reopened]
 
-name: Main Workflow
+name: Sonarscan
 jobs:
   sonarqube:
     runs-on: self-hosted
