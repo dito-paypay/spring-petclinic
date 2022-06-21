@@ -47,5 +47,6 @@ sonarqube {
     property "sonar.pullrequest.base", "main"
     property "sonar.pullrequest.branch", "dito-second-test"
     property "sonar.pullrequest.provider", "github"
+    property "sonar.pullrequest.github.repository", "Pay-Baymax/SonarQubeTest"
   }
 }
