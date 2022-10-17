@@ -13,7 +13,7 @@ jobs:
       env:
         str: "x=j y=k z=l"
       run: |
-        if [[ -n ${{ env.str }} ]]; then
+        if [[ -n '${{ env.str }}' ]]; then
           for e in ${{ env.str }}; do
             echo $e
           done
