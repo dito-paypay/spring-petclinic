@@ -8,6 +8,16 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+    - name: parsing long env vars
+      shell: bash
+      env:
+        str: "x=j y=k z=l"
+      run: |
+        if [[ -n ${{ env.str }} ]]; then
+          for e in ${{ env.str }}; do
+            echo $e
+          done
+        fi
     - name: testing
       run: |
         SBT_OPTS=something echo $SBT_OPTS
